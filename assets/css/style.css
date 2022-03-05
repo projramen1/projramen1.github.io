@@ -18,7 +18,7 @@ ol {
 ========================================== */
 .header-content {
   padding: 14px 10px;
-  border-top: 5px solid #ed1c25;
+  /* border-top: 5px solid #ed1c25; */
 }
 .header-content .icon {
   display: flex;
@@ -45,7 +45,7 @@ ol {
   margin-bottom: 0px;
   position: relative;
   height: 0;
-  background-color: #000000;
+  background-color: #ee1c25;
   border-top: 1px solid #ee1c25;
 }
 .menu .v-nav .logo > a > img {
