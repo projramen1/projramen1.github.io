@@ -274,13 +274,13 @@ ol {
 }
 
 .footer {
-  background: #ee1c25;
+  background: #ffffff;
   padding: 6px;
   text-align: center;
 }
 .footer > p {
   margin: 0;
-  color: #fff;
+  color: #000;
 }
 
 .ramen-content {
