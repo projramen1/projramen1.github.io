@@ -26,7 +26,7 @@ ol {
   justify-content: flex-end;
 }
 .header-content .icon > li {
-  background: #ee1c25;
+  background: #ffffff;
   border-radius: 50%;
   margin: 2px;
   padding: 4px;
@@ -34,7 +34,7 @@ ol {
   height: 35px;
 }
 .header-content .icon > li > a > i {
-  color: #fff;
+  color: #ee1c25;
   text-align: center;
   display: block;
   margin-top: 4px;
@@ -59,7 +59,7 @@ ol {
 }
 
 .v-nav .navbar-nav > li > a {
-  color: #ee1c25;
+  color: #ffffff;
   font-family: "Nunito", sans-serif;
   font-size: 15px;
   text-transform: uppercase;
