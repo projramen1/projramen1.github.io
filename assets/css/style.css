@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800");
+body {
+  /* background: url(../img/bg.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  background: #000000;
+  height: auto;
+  width: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* ========================================
+                 header
+========================================== */
+.header-content {
+  padding: 14px 10px;
+  border-top: 5px solid #ed1c25;
+}
+.header-content .icon {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.header-content .icon > li {
+  background: #ee1c25;
+  border-radius: 50%;
+  margin: 2px;
+  padding: 4px;
+  width: 35px;
+  height: 35px;
+}
+.header-content .icon > li > a > i {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 4px;
+  font-size: 17px;
+}
+
+.menu .v-nav {
+  margin-bottom: 0px;
+  position: relative;
+  height: 0;
+  background-color: #000000;
+  border-top: 1px solid #ee1c25;
+}
+.menu .v-nav .logo > a > img {
+  position: absolute;
+  width: 120px;
+  height: 118px;
+  top: -37px;
+  bottom: 0;
+  z-index: 999;
+  left: 170px;
+}
+
+.v-nav .navbar-nav > li > a {
+  color: #ee1c25;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+/* ========================================
+                 recipes
+========================================== */
+.recipes {
+  background: #000000;
+  height: auto;
+  width: 100%;
+  padding-bottom: 17px;
+}
+.title-heading {
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #f7ec16;
+  font-weight: 400;
+  vertical-align: middle;
+  margin-bottom: 15px;
+  letter-spacing: 4px;
+}
+.title-heading::before {
+  position: absolute;
+  display: block;
+  content: "";
+  border-top: 2px dotted #ee1c25;
+  width: 100%;
+  top: 50%;
+  z-index: 1;
+  height: 1px;
+}
+.title-heading > span {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 0 20px;
+  background-color: #000;
+}
+.title-item {
+  text-align: center;
+  color: #cacaca;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.recipes .item > figure .border {
+  border-radius: 50%;
+  background: #fff;
+  border: 9px solid #fff;
+}
+.recipes .item > figure .border > img {
+  width: 173px;
+  border-radius: 50%;
+  height: 162px;
+}
+
+.carousel-wrap {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #2caae1;
+}
+.owl-carousel .nav-btn {
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 3.5rem;
+}
+.owl-carousel .nav-btn-1 {
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 5.9rem;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+  background: url(../../assets/img/nav-icon.png) no-repeat scroll 0 0;
+  left: -33px;
+}
+.owl-carousel .next-slide {
+  background: url(../../assets/img/nav-icon.png) no-repeat scroll -24px 0px;
+  right: -33px;
+}
+.owl-carousel .prev-slide:hover {
+  background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover {
+  background-position: -24px -53px;
+}
+.owl-theme .owl-dots {
+  display: none;
+}
+
+.owl-item {
+  width: 267px !important;
+  margin: 0 auto;
+}
+.bot-div {
+  padding: 20px 0 72px;
+}
+.bot-div .hot {
+  text-align: center;
+}
+.bot-div .hot .hot-offer .swiper-wrapper .swiper-slide > img {
+  width: 320px;
+}
+.bot-div .hot .title {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #f7ec16;
+}
+.bot-div .hot .hot-offer .text {
+  width: 320px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 25px;
+}
+.bot-div .hot .hot-offer .text > p {
+  width: 320px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 25px;
+  color: #909090;
+}
+.bot-div .try {
+  background: #515151;
+  padding: 0px;
+  width: 165px;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.bot-div .try > p {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.bot-div .today .title {
+  color: #f7ec16;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.bot-div .today .text {
+  width: 500px;
+  margin-top: 25px;
+  color: #909090;
+}
+.bot-div .today .trys {
+  background: #515151;
+  padding: 0px;
+  width: 178px;
+  color: #fff;
+  /* margin: 0 auto; */
+  border-radius: 4px;
+}
+.bot-div .today .trys > p {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-content {
+  padding: 20px 0 30px;
+}
+
+.main-content .item-div {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.main-content .item-div > li {
+  width: 135px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.main-content .item-div > li > p {
+  color: #cacaca;
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.footer {
+  background: #ee1c25;
+  padding: 6px;
+  text-align: center;
+}
+.footer > p {
+  margin: 0;
+  color: #fff;
+}
+
+.ramen-content {
+  padding: 40px 0 30px;
+}
+.ramen-content ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ramen-content ul > li {
+  width: auto;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+.ramen-content ul > li > p {
+  text-align: center;
+  font-size: 15px;
+  color: #c4c4c4;
+  margin: 0;
+  margin-top: 7px;
+  text-transform: capitalize;
+}
+
+.img-cn {
+  width: 190px;
+  height: auto;
+}
+.tab-content ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tab-content ul > li {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+/*=====================================================
+ *
+ *  TAB MENU
+ ======================================================
+*/
+.nav-tabs {
+  border-bottom: none !important;
+  text-align: center;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border-width: 0;
+}
+.nav-tabs > li > a {
+  border: none;
+  color: #ffffff;
+  background: #ee1c25;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li > a:hover {
+  border: none;
+  color: #000000 !important;
+  background: #ffffff;
+}
+.nav-tabs > li > a::after {
+  content: "";
+  background: #ee1c25;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: -1px;
+  transition: all 250ms ease 0s;
+  transform: scale(0);
+}
+.nav-tabs > li.active > a::after,
+.nav-tabs > li:hover > a::after {
+  transform: scale(1);
+}
+.tab-nav > li > a::after {
+  background: #5a4080 none repeat scroll 0% 0%;
+  color: #fff;
+}
+.tab-pane {
+  /* padding: 15px 0; */
+}
+.tab-content {
+  padding: 20px 0px;
+}
+.nav-tabs > li {
+  width: 15%;
+  text-align: center !important;
+}
+.card {
+  /* background: #fff none repeat scroll 0% 0%; */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+.card .nav-tabs > li {
+  float: none;
+  margin-bottom: -1px;
+  display: inline-block !important;
+}
+.title-t {
+  background: #ee1c29;
+  text-align: center;
+  margin-top: 6px;
+}
+.title-t span {
+  font-size: 19px;
+  color: #fbfbfb;
+  font-family: "Nunito", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+  }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  .dropdown-menu > li {
+    display: block;
+  }
+
+  .nav-tabs > li > a > span {
+    display: none;
+  }
+  .nav-tabs > li > a {
+    padding: 5px 5px;
+  }
+}
