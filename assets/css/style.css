@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800");
 body {
-  background: url(../img/bg.png) no-repeat center;
+  /* background: #191919 url(../img/bg.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: top -9px left 0px;
-  /* background: #000000;
+  background-position: top -90px left 0px; */
+  background: #191919;
   height: auto;
-  width: 100%; */
+  width: 100%;
 }
 ul,
 ol {
@@ -255,6 +255,70 @@ ol {
 
 .main-content {
   padding: 20px 0 30px;
+  background: #1c1c1c;
+}
+.main-content .bg-img {
+  position: relative;
+}
+.main-content .bg-img .cs-1 {
+  position: absolute;
+  width: 100px;
+  left: 0;
+}
+.main-content .bg-img .cs-2 {
+  position: absolute;
+  width: 126px;
+  left: 11rem;
+  bottom: 0;
+  top: -24px;
+}
+.main-content .bg-img .cs-3 {
+  position: absolute;
+  width: 40px;
+  top: 156px;
+}
+.main-content .bg-img .cs-4 {
+  position: absolute;
+  width: 69px;
+  top: 138px;
+  left: 28px;
+}
+.main-content .bg-img .cs-5 {
+  position: absolute;
+  width: 145px;
+  right: 0;
+}
+.main-content .bg-img .cs-6 {
+  position: absolute;
+  width: 251px;
+  left: 0;
+  top: 37rem;
+}
+.main-content .bg-img .cs-7 {
+  position: absolute;
+  width: 70rem;
+  right: 0;
+  top: 37rem;
+}
+.footer .cs-8 {
+  position: absolute;
+  width: 160px;
+  bottom: 32px;
+  left: 143px;
+}
+
+.footer .cs-9 {
+  position: absolute;
+  width: 84px;
+  bottom: 32px;
+  left: 330px;
+}
+
+.footer .cs-10 {
+  position: absolute;
+  width: 109px;
+  bottom: 32px;
+  right: 0;
 }
 
 .main-content .item-div {
@@ -282,6 +346,7 @@ ol {
   background: #000000;
   padding: 6px;
   text-align: center;
+  position: relative;
 }
 .footer > p {
   margin: 0;
@@ -313,7 +378,6 @@ ol {
 .img-cn {
   width: 190px;
   height: auto;
-  border: 2px solid #000;
   border-radius: 5px;
 }
 .tab-content ul {
@@ -327,6 +391,7 @@ ol {
   background: #fff;
   border: 5px solid red;
   padding: 10px;
+  position: relative;
 }
 
 /*=====================================================
@@ -393,10 +458,15 @@ ol {
   display: inline-block !important;
 }
 .title-t {
-  background: #ee1c25;
+  background: #ff0000;
   text-align: center;
   margin-top: 6px;
-  padding: 5px;
+  padding: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 11px;
+  top: 197px;
 }
 .title-t span {
   font-size: 16px;
