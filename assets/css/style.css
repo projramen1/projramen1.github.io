@@ -14,6 +14,27 @@ ul,
 ol {
   list-style: none;
 }
+.mapouter{
+  position: relative;
+  z-index: 9999;
+}
+.main-content .mapouter .gmap_canvas iframe{
+  width: 100% !important;
+  height: 500px !important;
+}
+.icon-con li{
+  
+display: flex;
+  
+margin-bottom: 15px;
+}
+.icon-con li > i{line-height: 20px;margin-right: 10px;color: #f7ec16;font-size: 27px;}
+.icon-con li > p{
+  
+color: #cacaca;
+  
+font-size: 18px;
+}
 /* ========================================
                  header
 ========================================== */
